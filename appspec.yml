@@ -6,5 +6,5 @@ Resources:
       Properties:
         Name: TravelFixLambdaFunction
         Alias: live
-        CurrentVersion: 5
-        TargetVersion: 6
+        CurrentVersion: 6
+        TargetVersion: 5
