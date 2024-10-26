@@ -14,7 +14,7 @@ phases:
   post_build:
     commands:
       - echo Uploading the packaged Lambda function to S3...
-      - aws s3 cp TravelFixLambdaFunction.zip s3://travel-fix-lambda-deployments/TravelFixPipeline/BuildArtif/ --region us-east-1
+      - aws s3 cp TravelFixLambdaFunction.zip s3://travel-fix-lambda-deployment/TravelFixPipeline/BuildArtif/ --region us-east-1
 
 artifacts:
   files:
