@@ -19,6 +19,5 @@ phases:
 
 artifacts:
   files:
-    - appspec.yml
     - TravelFixLambdaFunction.zip
   discard-paths: yes
