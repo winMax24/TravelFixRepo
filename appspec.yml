@@ -6,8 +6,8 @@ Resources:
       Properties:
         Name: TravelFixLambdaFunction
         Alias: live
-        CurrentVersion: 1
-        TargetVersion: 2
+        CurrentVersion: 5
+        TargetVersion: 6
 
 Hooks:
   BeforeAllowTraffic:
